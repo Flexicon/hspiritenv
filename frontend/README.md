@@ -6,7 +6,7 @@
 
 ## Installation
 
-    docker build frontend
+    docker build -t flexicon/hspiritenv:VERSION frontend
     docker flexicon/hspiritenv:VERSION
     docker push flexicon/hspiritenv:VERSION
 
