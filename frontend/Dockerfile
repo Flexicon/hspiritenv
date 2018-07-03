@@ -17,8 +17,6 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /src/*.deb
 
-RUN apt-get install -y ruby
-RUN gem install sass
 RUN npm install -g bower grunt-cli grunt jshint
 
 CMD ["bash"]
